@@ -6,14 +6,17 @@ import RSVPs from './RSVPs';
 const Event = (props) => (
   <React.Fragment>
     <section className="event">
-      {props.isLoading && <p className="event__content">Loading...</p>}
-      {!!props.meetup.data ? (
-        <EventContent event={props.meetup.data[0]} />
-      ) : (
-        <p className="event__content">No event found.</p>
-      )}
+      {props.isLoading && 
+        <p className="event__content">Loading...</p>
+      }
+      {!!props.meetup.data 
+        ? <EventContent event={props.meetup.data[0]} />
+        : <p className="event__content">No event found.</p>
+      }
     </section>
-    {!!props.meetup.data && <RSVPs eventID={props.meetup.data[0].id} />}
+    {!!props.meetup.data && 
+      <RSVPs eventID={props.meetup.data[0].id} />
+    }
   </React.Fragment>
 );
 
