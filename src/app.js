@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ReactApp from './components/ReactApp';
+import ReactJSDallas from './components/ReactJSDallas';
 import './styles/styles.css';
 
-ReactDOM.render(<ReactApp />, document.getElementById('app'));
+ReactDOM.render(<ReactJSDallas />, document.getElementById('app'));

@@ -1,4 +1,4 @@
-// Copyright
+// Copyright Component
 
 footer {
   position: absolute;
@@ -9,11 +9,11 @@ footer {
 }
 
 .copyright {
-  color: $white;
+  color: $black;
   font-family: $fontContent;
 
   &__link {
-    color: $white;
+    color: $grayDark;
     text-decoration: none;
     transition: color 0.2s ease-in-out;
 

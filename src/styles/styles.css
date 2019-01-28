@@ -10,5 +10,6 @@
 
 // Components
 @import 'components/_copyright';
-@import 'components/_react-app';
-@import 'components/_react-component';
+@import 'components/_event';
+@import 'components/_reactjs-dallas';
+@import 'components/_rsvps';

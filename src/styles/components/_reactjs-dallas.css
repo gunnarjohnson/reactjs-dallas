@@ -1,0 +1,20 @@
+// ReactJS Dallas Component
+
+.reactjs-dallas {
+  display: block;
+  position: relative;
+  min-height: calc(100vh - 50px);
+  padding-bottom: 50px;
+  background-color: white;
+
+  &__title {
+    color: $black;
+    font-family: $fontTitle;
+    font-size: 3em;
+    letter-spacing: 3px;
+    text-align: center;
+    @media screen and (width >= $device-md) {
+      font-size: 4em;
+    }
+  }
+}
