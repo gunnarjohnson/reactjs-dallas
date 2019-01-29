@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBuilding } from '@fortawesome/free-regular-svg-icons/faBuilding';
+import { faBuilding } from '@fortawesome/free-regular-svg-icons';
 
 const EventLocation = (props) => (
   <div className="event-location">

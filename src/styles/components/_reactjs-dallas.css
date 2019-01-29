@@ -4,11 +4,11 @@
   position: relative;
   min-height: calc(100vh - 50px);
   padding-bottom: 50px;
-  background-color: $white;
+  background-color: $grayLight;
   @media screen and (width >= $device-lg) {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto auto;
+    grid-template-rows: 175px auto auto;
   }
   @media screen and (width >= $device-xl) {
     grid-template-columns: 3fr 2fr;

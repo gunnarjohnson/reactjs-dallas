@@ -5,6 +5,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 1em;
+  background-color: $white;
   border-bottom: 3px solid $grayDark;
   @media screen and (width >= $device-md) {
     padding: 1em 2em;
@@ -28,7 +29,7 @@
     font-size: 2em;
     letter-spacing: 3px;
     text-align: left;
-    text-shadow: 0px 0px 10px $gray;
+    text-shadow: 0px 0px 10px $grayLight;
     @media screen and (width >= $device-md) {
       font-size: 4em;
     }

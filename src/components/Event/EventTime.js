@@ -1,7 +1,7 @@
 import React from 'react';
 import Moment from 'react-moment';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faClock } from '@fortawesome/free-regular-svg-icons/faClock';
+import { faClock } from '@fortawesome/free-regular-svg-icons';
 
 const EventTime = (props) => (
   <div className="event-time">

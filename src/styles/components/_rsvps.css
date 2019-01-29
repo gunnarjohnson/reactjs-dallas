@@ -2,7 +2,6 @@
 
 .rsvps {
   padding: 1em;
-  background-color: $gray;
   @media screen and (width >= $device-lg) {
     grid-column: 2;
     grid-row: 2;
@@ -32,6 +31,7 @@
     color: $black;
     font-family: $fontContent;
     font-size: 1.25em;
+    text-align: center;
     @media screen and (width >= $device-md) {
       font-size: 1.75em;
     }
@@ -61,7 +61,7 @@
   // RSVPs List
 
   &-list {
-    margin-bottom: 6em;
+    margin-bottom: 2em;
     padding: 1.5em 1em;
     background-color: $white;
     list-style: none;
@@ -71,6 +71,9 @@
     @media screen and (width >= $device-md) {
       padding: 2em;
       text-align: left;
+    }
+    @media screen and (width >= $device-lg) {
+      margin-bottom: 4em;
     }
 
     &__item {

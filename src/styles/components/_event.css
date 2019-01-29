@@ -6,7 +6,6 @@
   align-items: center;
   justify-content: center;
   padding: 1em;
-  background-color: $gray;
   @media screen and (width >= $device-md) {
     padding: 2em;
   }

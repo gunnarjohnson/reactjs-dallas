@@ -5,6 +5,8 @@ module.exports = {
     require('postcss-simple-vars'),
     require('postcss-nested'),
     require('postcss-strip-inline-comments'),
-    require('postcss-preset-env')
+    require('postcss-preset-env')({ 
+      autoprefixer: { grid: true }
+    })
   ]
 };

@@ -7,9 +7,10 @@ $black: #000000;
 $white: #ffffff;
 
 // Gray
-$gray: #f6f7f8;
-$grayMedium: #929994;
 $grayDark: #555956;
+$grayMedium: #929994;
+$grayLight: #f6f7f8;
+
 
 // Crimson
 $crimson: #ed1c40;

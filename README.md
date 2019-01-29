@@ -12,6 +12,7 @@ See [React Boilerplate README](https://github.com/gunnarjohnson/react-boilerplat
 * [PostCSS](https://github.com/postcss/postcss)
 * [React](https://github.com/facebook/react)
 * [React Boilerplate](https://github.com/gunnarjohnson/react-boilerplate)
+* [React Moment](https://github.com/headzoo/react-moment)
 * [Webpack](https://github.com/webpack/webpack)
 
 ## Project Requirements
@@ -28,6 +29,7 @@ See [React Boilerplate README](https://github.com/gunnarjohnson/react-boilerplat
 * [Authenticating with the Meetup API](https://www.meetup.com/meetup_api/auth/)
 * [Meetup API v3 Events Endpoint](https://secure.meetup.com/meetup_api/console/?path=/:urlname/events)
 * [Meetup API v3 RSVPs Endpoint](https://secure.meetup.com/meetup_api/console/?path=/:urlname/events/:event_id/rsvps)
+* [Meetup Trademark Guidelines](https://help.meetup.com/hc/en-us/articles/360001655932-Meetup-Trademark-Guidelines)
 
 ## License
 ReactJS Dallas Meetup is open source software, built with [React Boilerplate](https://github.com/gunnarjohnson/react-boilerplate), and [licensed as MIT](https://github.com/gunnarjohnson/reactjs-dallas/blob/master/LICENSE.txt).

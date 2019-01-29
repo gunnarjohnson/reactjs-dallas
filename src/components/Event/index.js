@@ -9,10 +9,10 @@ const Event = (props) => (
   <React.Fragment>
     <section className="event">
       {props.isLoading && (
-        <p className="event__content event__content--loading">Loading...</p>
+        <p className="event__content">Loading...</p>
       )}
       {!!props.error && (
-        <p className="event__content event__content--error">Something went wrong.</p>
+        <p className="event__content">Something went wrong.</p>
       )}
       {!!props.meetup.data && (
         <React.Fragment>
@@ -35,7 +35,6 @@ const Event = (props) => (
   </React.Fragment>
 );
 
-Event.displayName = 'Event';
 const url = 'https://api.meetup.com/reactjs-dallas/events?photo-host=public&page=1&sig_id=211601145&sig=7e332371254b355d639ce06a1f502965eb53eca9';
 const WrappedComponent = withMeetupData(url)(Event);
 
