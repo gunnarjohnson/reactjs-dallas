@@ -3,11 +3,20 @@
 // Black
 $black: #000000;
 
-// Blue
-$blueLight: #61dafb;
-
-// Gray
-$grayDark: #2a2c2e;
-
 // White
 $white: #ffffff;
+
+// Gray
+$gray: #f6f7f8;
+$grayMedium: #929994;
+$grayDark: #555956;
+
+// Crimson
+$crimson: #ed1c40;
+
+// Green
+$greenDark: #00381a;
+$greenMedDark: #007938;
+$greenMedium: #00af51;
+$greenMedLight: #3abf78;
+$greenLight: #abe4c5;

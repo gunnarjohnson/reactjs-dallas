@@ -1,0 +1,44 @@
+// Header Component
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em;
+  border-bottom: 3px solid $grayDark;
+  @media screen and (width >= $device-md) {
+    padding: 1em 2em;
+  }
+  @media screen and (width >= $device-lg) {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+    padding: 1em 3em;
+  }
+  @media screen and (width >= $device-xl) {
+    padding: 2em 4em;
+  }
+    @media screen and (width >= 1600px) {
+    padding: 2em 6em;
+  }
+
+  &__title {
+    margin: 0;
+    color: $crimson;
+    font-family: $fontTitle;
+    font-size: 2em;
+    letter-spacing: 3px;
+    text-align: left;
+    text-shadow: 0px 0px 10px $gray;
+    @media screen and (width >= $device-md) {
+      font-size: 4em;
+    }
+  }
+
+  &__icon {
+    color: $crimson;
+    font-size: 3em;
+    @media screen and (width >= $device-md) {
+      font-size: 6em;
+    }
+  }
+}

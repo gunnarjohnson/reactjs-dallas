@@ -7,6 +7,8 @@ See [React Boilerplate README](https://github.com/gunnarjohnson/react-boilerplat
 ## Technologies
 * [Babel](https://github.com/babel/babel)
 * [Fetch JSONP](https://github.com/camsong/fetch-jsonp)
+* [Font Awesome](https://github.com/FortAwesome/Font-Awesome)
+* [Moment](https://github.com/moment/moment)
 * [PostCSS](https://github.com/postcss/postcss)
 * [React](https://github.com/facebook/react)
 * [React Boilerplate](https://github.com/gunnarjohnson/react-boilerplate)

@@ -1,20 +1,16 @@
 // ReactJS Dallas Component
 
 .reactjs-dallas {
-  display: block;
   position: relative;
   min-height: calc(100vh - 50px);
   padding-bottom: 50px;
-  background-color: white;
-
-  &__title {
-    color: $black;
-    font-family: $fontTitle;
-    font-size: 3em;
-    letter-spacing: 3px;
-    text-align: center;
-    @media screen and (width >= $device-md) {
-      font-size: 4em;
-    }
+  background-color: $white;
+  @media screen and (width >= $device-lg) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+  }
+  @media screen and (width >= $device-xl) {
+    grid-template-columns: 3fr 2fr;
   }
 }

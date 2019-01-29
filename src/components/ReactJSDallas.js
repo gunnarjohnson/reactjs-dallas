@@ -1,17 +1,15 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Copyright from './Copyright';
 import Event from './Event';
+import Header from './Header';
 
-class ReactJSDallas extends Component {
-  render() {
-    return (
-      <div className="reactjs-dallas">
-        <h1 className="reactjs-dallas__title">React JS Dallas Meetup</h1>
-        <Event />
-        <Copyright />
-      </div>
-    );
-  }
-}
+const ReactJSDallas = () => (
+  <div className="reactjs-dallas">
+    <Header />
+    <Event />
+    <Copyright />
+  </div>
+);
+ 
 
 export default ReactJSDallas;

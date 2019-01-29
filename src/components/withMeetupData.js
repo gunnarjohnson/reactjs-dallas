@@ -27,12 +27,17 @@ const withMeetupData = (url) => (WrappedComponent) => {
     }
 
     render() {
-      return <WrappedComponent {...this.state} />;
+      return (
+        <WrappedComponent 
+          {...this.state} 
+          attending={this.props.attending} 
+          waitlist={this.props.waitlist}
+        />
+      );
     }
   }
 
-  WithMeetupData.displayName = `withMeetupData(${WrappedComponent.displayName || 'Component'})`;
-
+  WithMeetupData.displayName = `withMeetupData(${WrappedComponent.displayName || WrappedComponent.name || 'Component'})`;
   return WithMeetupData;
 }
 

@@ -1,14 +1,40 @@
 // Event Component
 
 .event {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+  background-color: $gray;
+  @media screen and (width >= $device-md) {
+    padding: 2em;
+  }
+  @media screen and (width >= $device-lg) {
+    grid-column: 1;
+    grid-row: 2;
+    display: block;
+  }
+  @media screen and (width >= $device-xl) {
+    padding: 2em 4em;
+  }
+  @media screen and (width >= 1600px) {
+    padding: 2em 6em;
+  }
+
   &__title {
+    flex-basis: 100%;
+    margin-top: 0;
     color: $black;
     font-family: $fontTitle;
-    font-size: 2em;
+    font-size: 1.5em;
     letter-spacing: 3px;
     text-align: center;
     @media screen and (width >= $device-md) {
       font-size: 3em;
+    }
+    @media screen and (width >= $device-lg) {
+      text-align: left;
     }
   }
 
@@ -16,9 +42,135 @@
     color: $black;
     font-family: $fontContent;
     font-size: 1.25em;
-    text-align: center;
     @media screen and (width >= $device-md) {
       font-size: 1.75em;
+    }
+  }
+
+  // Event Time
+
+  &-time {
+    flex-basis: 100%;
+    
+    &-container {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      grid-template-rows: 1fr 1fr;
+    }
+
+    &__icon {
+      grid-column: 1;
+      grid-row: 1 / span 2;
+      align-self: center;
+      font-size: 2em;
+      @media screen and (width >= $device-md) {
+        font-size: 3em;
+      }
+    }
+
+    &__content {
+      grid-column: 2;
+      grid-row: 1;
+      display: block;
+      margin-left: 1em;
+      color: $black;
+      font-family: $fontContent;
+      font-size: 1em;
+      @media screen and (width >= $device-md) {
+        font-size: 1.5em;
+      }
+
+      &--time {
+        grid-row: 2;
+      }
+    }
+  }
+
+  // Event Location
+
+  &-location {
+    &-container {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      grid-template-rows: 1fr;
+    }
+
+    &__icon {
+      grid-column: 1;
+      grid-row: 1 / span 2;
+      align-self: center;
+      font-size: 2em;
+      @media screen and (width >= $device-md) {
+        font-size: 3em;
+      }
+    }
+
+    &__content {
+      grid-column: 2;
+      grid-row: 1;
+      display: block;
+      margin-left: 1em;
+      color: $black;
+      font-family: $fontContent;
+      font-size: 1em;
+      @media screen and (width >= $device-md) {
+        font-size: 1.5em;
+      }
+
+      &--address {
+        display: block;
+      }
+    }
+  }
+
+  // Event Details
+
+  &-details {
+    position: relative;
+
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: -1em;
+      width: calc(100% + 2em);
+      height: 1px;
+      background-color: $grayMedium;
+      @media screen and (width >= $device-md) {
+        left: -2em;
+        width: calc(100% + 4em);
+      }
+      @media screen and (width >= $device-lg) {
+        display: none;
+      }
+    }
+
+    &__title {
+      color: $black;
+      font-family: $fontContent;
+      font-size: 1.25em;
+      letter-spacing: 3px;
+      @media screen and (width >= $device-md) {
+        font-size: 2em;
+      }
+    }
+
+    &-container {
+      color: $black;
+      font-family: $fontContent;
+      font-size: 1em;
+
+      .linkified {
+        color: $greenMedium;
+        text-decoration: none;
+
+        &:hover {
+          color: $greenMedLight;
+          text-decoration: underline;
+        }
+      }
     }
   }
 }
