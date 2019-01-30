@@ -1,9 +1,7 @@
 # ReactJS Dallas
-- - -
 **A React app that consumes the Meetup API and displays information about an upcoming ReactJS Dallas event.**
 
 ## Table of Contents
-- - - 
 * [Installation](#installation)
 * [Usage](#usage)
 * [Technologies](#technologies)
@@ -12,7 +10,7 @@
 * [License](#license)
 
 ## Installation
-- - -
+
 ### Get App
 Choose from the following options:
 * **Clone:** `git clone https://github.com/gunnarjohnson/react-boilerplate.git`
@@ -26,7 +24,7 @@ npm install
 Installs the dependencies in the local `node_modules` directory.
 
 ## Usage
-- - -
+
 ### Development
 ```
 npm run dev
@@ -40,7 +38,7 @@ npm run build
 Builds the app in Webpack's production mode to the `dist` directory.
 
 ## Technologies
-- - -
+
 * [Babel](https://github.com/babel/babel)
 * [Fetch JSONP](https://github.com/camsong/fetch-jsonp)
 * [Font Awesome](https://github.com/FortAwesome/Font-Awesome)
@@ -52,7 +50,7 @@ Builds the app in Webpack's production mode to the `dist` directory.
 * [Webpack](https://github.com/webpack/webpack)
 
 ## Project Requirements
-- - -
+
 **_Build and deploy a React application that meets the following criteria:_**
 
 **Consume Meetup.com web API and display information about an upcoming ReactJS Dallas event.**
@@ -74,7 +72,7 @@ Builds the app in Webpack's production mode to the `dist` directory.
 > The API calls are placed in the `componentDidMount` method. The `render` method is called once, then the `componentDidMount` method is called, storing the fetched data in the component state and triggering a re-render. Depending on the component's state, the component will return a loading message, error message, or data from the JSON object.
 
 ## Related Documentation
-- - -
+
 * [Meetup API](https://www.meetup.com/meetup_api/)
 * [Authenticating with the Meetup API](https://www.meetup.com/meetup_api/auth/)
 * [Meetup API v3 Events Endpoint](https://secure.meetup.com/meetup_api/console/?path=/:urlname/events)
@@ -82,5 +80,5 @@ Builds the app in Webpack's production mode to the `dist` directory.
 * [Meetup Trademark Guidelines](https://help.meetup.com/hc/en-us/articles/360001655932-Meetup-Trademark-Guidelines)
 
 ## License
-- - -
+
 ReactJS Dallas is open source software, built with [React Boilerplate](https://github.com/gunnarjohnson/react-boilerplate), and [licensed as MIT](https://github.com/gunnarjohnson/reactjs-dallas/blob/master/LICENSE.txt).
