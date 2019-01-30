@@ -13,7 +13,7 @@
 
 ### Get App
 Choose from the following options:
-* **Clone:** `git clone https://github.com/gunnarjohnson/react-boilerplate.git`
+* **Clone:** `git clone https://github.com/gunnarjohnson/reactjs-dallas.git`
 * [**Download**](https://github.com/gunnarjohnson/reactjs-dallas/archive/master.zip)
 * [**Fork**](https://github.com/gunnarjohnson/reactjs-dallas/fork)
 
