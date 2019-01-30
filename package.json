@@ -1,5 +1,5 @@
 {
-  "name": "reactjs-dallas-meetup",
+  "name": "reactjs-dallas",
   "version": "1.0.0",
   "description": "A React app that consumes the Meetup API and displays information about an upcoming ReactJS Dallas event.",
   "main": "index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gunnarjohnson/reactjs-dallas-meetup.git"
+    "url": "git+https://github.com/gunnarjohnson/reactjs-dallas.git"
   },
   "author": "Gunnar Johnson",
   "license": "SEE LICENSE IN LICENSE.txt",
   "bugs": {
-    "url": "https://github.com/gunnarjohnson/reactjs-dallas-meetup/issues"
+    "url": "https://github.com/gunnarjohnson/reactjs-dallas/issues"
   },
-  "homepage": "https://github.com/gunnarjohnson/reactjs-dallas-meetup#readme",
+  "homepage": "https://github.com/gunnarjohnson/reactjs-dallas#readme",
   "dependencies": {
     "fetch-jsonp": "^1.1.3",
     "moment": "^2.24.0",
