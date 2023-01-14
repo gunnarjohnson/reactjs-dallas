@@ -52,7 +52,7 @@
     "postcss-strip-inline-comments": "^0.1.5",
     "style-loader": "^0.23.1",
     "webpack": "^4.28.4",
-    "webpack-cli": "^3.2.1",
+    "webpack-cli": "^3.3.12",
     "webpack-merge": "^4.2.1",
     "webpack-serve": "^2.0.3"
   }
